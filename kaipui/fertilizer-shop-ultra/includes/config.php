@@ -27,7 +27,7 @@ define('BASE_URL', $dir);
 // =====================
 // DB SETTINGS (แก้ตามเครื่อง/เซิร์ฟเวอร์)
 // =====================
-define('DB_HOST', '45.144.167.249');
+define('DB_HOST', '127.0.0.1');
 define('DB_NAME', 'fertilizer_shop');
 define('DB_USER', 'root');
 define('DB_PASS', '');
