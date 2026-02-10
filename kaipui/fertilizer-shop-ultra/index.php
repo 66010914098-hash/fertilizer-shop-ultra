@@ -17,13 +17,13 @@ require __DIR__ . '/includes/header.php';
     <div>
       <h1 class="h1">เว็บขายปุ๋ย <span style="color:#bfffdc">ULTRA</span> • สวยเหมือนเว็บจริง</h1>
       <p class="small" style="font-size:14px">
-        UI โทนมืดพรีเมียม • ค้นหา/กรอง/แบ่งหน้า • ตะกร้า • Checkout อัปโหลดสลิป • หลังร้าน CRUD ครบ
+        ร้านค้าสำหรับขายอุปกรณ์การเกษตร ปุ๋ย เมล็ดพันธุ์ ผสมผสานดีไซน์ที่ทันสมัยและฟีเจอร์ครบครัน
       </p>
       <div class="kpi" style="margin-top:12px">
-        <span class="chip">✅ PHP + MySQL</span>
-        <span class="chip">✅ BASE_URL Auto</span>
-        <span class="chip">✅ Upload รูปหลายรูป</span>
-        <span class="chip">✅ Admin Dashboard</span>
+        <span class="chip">✅ อุปกรณ์การเกษตร</span>
+        <span class="chip">✅ ปุ๋ย</span>
+        <span class="chip">✅ เมล็ดพันธุ์</span>
+        <span class="chip">✅ สารจำกัดศัตรูพืช</span>
       </div>
       <div class="row wrap" style="margin-top:14px">
         <a class="btn primary" href="<?= h(url('/products.php')) ?>">ดูสินค้าทั้งหมด</a>
@@ -46,7 +46,7 @@ require __DIR__ . '/includes/header.php';
         <?php endforeach; ?>
       </div>
       <div class="hr"></div>
-      <div class="small">✅ วางในโฟลเดอร์ชื่ออะไรก็ได้ ลิงก์ไม่พัง (BASE_URL Auto)</div>
+      <div class="small">✅ ราคาดีและมีคุณภาพ (เสี่ยเตอร์การันตี)</div>
     </div>
   </div>
 </section>
